@@ -1,0 +1,91 @@
+/*
+Color palette:
+*Ice blue #90FCF9
+*Aero #63B4D1
+*Vista Blue #7699D4
+*Purpureus #9448BC
+*Russian Violet #480355
+*/
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#63B4D1,#480355);
+}
+.container{
+    margin: 50px auto;
+    width: 400px;
+    padding: 40px;
+    background-color: rgba(72, 3, 85,.7);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(72, 3, 85,.5);
+
+}
+.container h1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 40px;
+    color:#90FCF9;
+    text-align: center;
+
+}
+.user{
+    margin: auto;
+}
+.inputs{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color:#90FCF9;
+    text-align: center;
+}
+
+.inputs input{
+    width: 100%;
+    height: 30px;
+    padding: 10px auto;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #90FCF9;
+    color: #90FCF9;
+}
+#remember {
+    margin: 0;
+    padding: auto;
+}
+#remember label{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:#90FCF9;
+}
+
+#button input{
+    width: 100%;
+    height: 40px;
+    background-color: #90FCF9;
+    color:#480355;
+    border:none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+#extras a{
+    padding: 40px auto;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #90FCF9;
+    text-decoration: none;
+}
+#extras a:hover{
+    text-decoration:dashed;
+
+}
